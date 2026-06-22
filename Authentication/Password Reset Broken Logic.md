@@ -121,7 +121,7 @@ The broken password reset logic has severe security implications:
 6. **Audit and Logging:**
    - Log all password reset attempts and successes.
    - Alert on unusual patterns of password reset activity.
-![[img4.png]]
+![](Screenshots/img4.png)
 # **CVSS Justification**
 
 | Metric | Value | Justification |

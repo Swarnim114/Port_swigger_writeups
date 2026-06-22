@@ -45,16 +45,16 @@ SELECT * FROM users WHERE username = 'administrator'--' AND password = 'somepass
 `administrator` matches the account. The `'` closes the username string. `--` comments out everything after it, so the `AND password = '...'` check never runs. The DB finds the admin row, returns it, and the app thinks the login was valid.
 
 **Screenshot 1 – Login page (before injection):**
-![[Screenshots/5_login_page_normal.png]]
+![](Screenshots/5_login_page_normal.png)
 
 **Screenshot 2 – Burp Suite intercepting the login POST request:**
-![[Screenshots/6_burp_intercept_login.png]]
+![](Screenshots/6_burp_intercept_login.png)
 
 **Screenshot 3 – Username field modified with payload:**
-![[Screenshots/7_burp_modified_username.png]]
+![](Screenshots/7_burp_modified_username.png)
 
 **Screenshot 4 – Logged in as administrator (lab solved):**
-![[Screenshots/8_logged_in_as_admin.png]]
+![](Screenshots/8_logged_in_as_admin.png)
 
 # **Impact**
 

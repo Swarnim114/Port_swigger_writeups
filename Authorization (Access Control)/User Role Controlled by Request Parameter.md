@@ -62,16 +62,16 @@ GET /admin/delete?username=carlos HTTP/2
 Host: LAB-ID.web-security-academy.net
 Cookie: session=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ3aWVuZXIifQ.abc123; Admin=true
 ```
-![[4.png]]
+![](Screenshots/4.png)
 
-![[5.png]]
-
-
-![[6.png]]
-![[7.png]]
+![](Screenshots/5.png)
 
 
-![[8.png]]
+![](Screenshots/6.png)
+![](Screenshots/7.png)
+
+
+![](Screenshots/8.png)
 # **Impact**
 
 The insecure use of a client-side cookie for role management has severe security implications:

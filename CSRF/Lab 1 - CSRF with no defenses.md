@@ -50,9 +50,9 @@ email=wiener@web-security-academy.net
 
 When the victim visits the attacker's page, the JavaScript automatically submits the hidden form. The victim's browser attaches their session cookie to the POST request. Since the server has no CSRF token to validate, it accepts the request as legitimate and changes the victim's email to whatever the attacker specified.
 
-![[Screenshots/1_email_change_request_burp.png]]
+![](Screenshots/1_email_change_request_burp.png)
 
-![[Screenshots/2_csrf_exploit_server_body.png]]
+![](Screenshots/2_csrf_exploit_server_body.png)
 
 # Impact
 

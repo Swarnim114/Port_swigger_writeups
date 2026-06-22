@@ -34,9 +34,9 @@ Unlike reflected XSS where the payload lives in a URL and only affects users who
 
 The comment is saved to the database as-is. When any user loads the blog post, the server fetches stored comments and injects them into the page HTML without encoding. The browser sees the `<script>` tag in the response body, treats it as code, and executes it immediately — triggering the alert for every visitor.
 
-![[Screenshots/3_xss_payload_in_comment.png]]
+![](Screenshots/3_xss_payload_in_comment.png)
 
-![[Screenshots/4_stored_xss_alert_triggered.png]]
+![](Screenshots/4_stored_xss_alert_triggered.png)
 
 # Impact
 

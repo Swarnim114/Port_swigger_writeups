@@ -28,16 +28,16 @@ x||ping -c 10 127.0.0.1||
 By using the `||` (OR) operators, we are telling the backend server: run the first command, and if it fails or finishes, run the next command. The `ping -c 10 127.0.0.1` command tells the server to ping itself 10 times, which takes exactly 10 seconds. The trailing `||` ensures that any remaining parts of the original backend command are treated as a separate execution block, preventing syntax errors from breaking the execution. Since the server waits for the ping to finish before returning the HTTP response, we see a 10-second delay in Burp Suite.
 
 **Screenshot 1 – Normal feedback submission form:**
-![[Screenshots/4_normal_feedback_form.png]]
+![](Screenshots/4_normal_feedback_form.png)
 
 **Screenshot 2 – Burp Suite intercepting the feedback POST request:**
-![[Screenshots/5_burp_intercept_feedback.png]]
+![](Screenshots/5_burp_intercept_feedback.png)
 
 **Screenshot 3 – Modified email parameter with ping payload in Burp:**
-![[Screenshots/6_burp_modified_email_ping.png]]
+![](Screenshots/6_burp_modified_email_ping.png)
 
 **Screenshot 4 – Burp response showing the 10-second execution time (lab solved):**
-![[Screenshots/7_burp_response_time_delay.png]]
+![](Screenshots/7_burp_response_time_delay.png)
 
 # **Impact**
 

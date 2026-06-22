@@ -24,13 +24,13 @@ https://YOUR-LAB-ID.web-security-academy.net/my-account
 Simply accessing the protected account page after authentication bypasses the 2FA verification step.
 
 **Screenshot 1 – Logging in with victim's credentials:**
-![[img1.png]]
+![](Screenshots/img1.png)
 
 **Screenshot 2 – 2FA verification prompt:**
-![[img2.png]]
+![](Screenshots/img2.png)
 
 **Screenshot 3 – Manually changing URL to /my-account:**
-![[Screenshots/img3.png]]
+![](Screenshots/img3.png)
 
 
 

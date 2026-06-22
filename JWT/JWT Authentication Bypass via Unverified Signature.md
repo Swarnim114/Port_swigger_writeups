@@ -61,19 +61,19 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbmlzdHJhdG9yIiwiaWF0IjoxNTE
 ```
 
 **Step 1 – Original JWT in session cookie:**
-![[Screenshots/1_jwt_session_cookie.png]]
+![](Screenshots/1_jwt_session_cookie.png)
 
 **Step 2 – Accessing /admin with original JWT (denied):**
-![[Screenshots/2_admin_access_denied.png]]
+![](Screenshots/2_admin_access_denied.png)
 
 **Step 3 – Modifying the sub claim in Inspector panel:**
-![[Screenshots/3_jwt_modify_sub_claim.png]]
+![](Screenshots/3_jwt_modify_sub_claim.png)
 
 **Step 4 – Accessing /admin with modified JWT (granted):**
-![[Screenshots/4_admin_access_granted.png]]
+![](Screenshots/4_admin_access_granted.png)
 
 **Step 5 – Deleting carlos via admin panel:**
-![[Screenshots/5_delete_carlos.png]]
+![](Screenshots/5_delete_carlos.png)
 
 # **Impact**
 

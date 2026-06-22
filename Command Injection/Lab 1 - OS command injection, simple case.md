@@ -25,13 +25,13 @@ Since there's no sanitization, you can just append a shell metacharacter (like `
 By using the pipe character `|` in the `storeId` parameter, we tell the backend system to run its normal command, and then run our injected command `whoami`. Because the application returns the raw output of the executed sequence, the result of `whoami` gets printed directly in the HTTP response.
 
 **Screenshot 1 – Burp Suite intercepting normal stock check:**
-![[Screenshots/1_burp_normal_stock_check.png]]
+![](Screenshots/1_burp_normal_stock_check.png)
 
 **Screenshot 2 – Modified storeId with payload in Burp Suite:**
-![[Screenshots/2_burp_modified_store_id.png]]
+![](Screenshots/2_burp_modified_store_id.png)
 
 **Screenshot 3 – Response showing the whoami output (lab solved):**
-![[Screenshots/3_whoami_output_response.png]]
+![](Screenshots/3_whoami_output_response.png)
 
 # **Impact**
 

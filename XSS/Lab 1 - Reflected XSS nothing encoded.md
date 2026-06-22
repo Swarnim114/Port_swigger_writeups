@@ -36,9 +36,9 @@ This is a classic reflected XSS vulnerability. The malicious script isn't stored
 
 The search term is placed directly between HTML tags with no sanitization. The browser parses the response and sees a `<script>` tag, so it executes the JavaScript inside it — triggering the alert. In a real attack, `alert(1)` would be replaced with a payload that steals session cookies or performs actions on behalf of the victim.
 
-![[Screenshots/1_xss_payload_in_search.png]]
+![](Screenshots/1_xss_payload_in_search.png)
 
-![[Screenshots/2_alert_box_triggered.png]]
+![](Screenshots/2_alert_box_triggered.png)
 
 # Impact
 

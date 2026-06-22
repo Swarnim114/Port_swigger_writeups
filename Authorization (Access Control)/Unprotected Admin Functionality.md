@@ -40,11 +40,11 @@ https://YOUR-LAB-ID.web-security-academy.net/administrator-panel
 ```
 https://YOUR-LAB-ID.web-security-academy.net/administrator-panel/delete?username=carlos
 ```
-![[1.png]]
-![[2.png]]
+![](Screenshots/1.png)
+![](Screenshots/2.png)
 
 
-![[3.png]]
+![](Screenshots/3.png)
 # **Impact**
 
 The exposure of an unprotected admin panel has severe security implications:

@@ -44,16 +44,16 @@ SELECT * FROM products WHERE category = '' OR 1=1--' AND released = 1
 The `'` closes the category string. `OR 1=1` makes the condition always true so every row matches. The `--` comments out the rest of the query, so the `released = 1` filter never runs. All products get returned.
 
 **Screenshot 1 – Normal product listing (before injection):**
-![[Screenshots/1_normal_product_listing.png]]
+![](Screenshots/1_normal_product_listing.png)
 
 **Screenshot 2 – Burp Suite intercepted request:**
-![[Screenshots/2_burp_intercept_original.png]]
+![](Screenshots/2_burp_intercept_original.png)
 
 **Screenshot 3 – Modified request with payload:**
-![[Screenshots/3_burp_modified_payload.png]]
+![](Screenshots/3_burp_modified_payload.png)
 
 **Screenshot 4 – Unreleased products now visible (lab solved):**
-![[Screenshots/4_unreleased_products_shown.png]]
+![](Screenshots/4_unreleased_products_shown.png)
 
 # **Impact**
 

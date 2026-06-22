@@ -64,18 +64,18 @@ Content-Type: application/x-www-form-urlencoded
 
 stockApi=http://localhost/admin/delete?username=carlos
 ```
-![[SST/T12/App Sec/Port Swigger Writeups/SSRF/Screenshots/1.png]]
+![](Screenshots/1.png)
 
 
 
-![[SST/T12/App Sec/Port Swigger Writeups/SSRF/Screenshots/2.png]]
+![](Screenshots/2.png)
 
 
-![[SST/T12/App Sec/Port Swigger Writeups/SSRF/Screenshots/3.png]]
+![](Screenshots/3.png)
 
-![[SST/T12/App Sec/Port Swigger Writeups/SSRF/Screenshots/4.png]]
+![](Screenshots/4.png)
 
-![[SST/T12/App Sec/Port Swigger Writeups/SSRF/Screenshots/5.png]]
+![](Screenshots/5.png)
 
 # **Impact**
 
